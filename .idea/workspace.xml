@@ -5,12 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83dac763-90f8-468e-9e50-d69ad7c10f87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karol/FastFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karol/FastFibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karol/FastFibonacciImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karol/FastFibonacciImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karol/SingletonFastFibonacciImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/karol/SingletonFastFibonacciImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/karol/FastFibonacciImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/karol/FastFibonacciImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/karol/SingletonFastFibonacciImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/karol/SingletonFastFibonacciImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/karol/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/karol/TestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,10 +48,115 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.karol" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FastFibonacciImplTest">
+    <configuration name="FastFibonacciImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fastFibonacci" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.karol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.karol" />
+      <option name="MAIN_CLASS_NAME" value="com.karol.FastFibonacciImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonFastFibonacciImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fastFibonacci" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.karol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.karol" />
+      <option name="MAIN_CLASS_NAME" value="com.karol.SingletonFastFibonacciImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonFastFibonacciImplTest.testSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fastFibonacci" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.karol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.karol" />
+      <option name="MAIN_CLASS_NAME" value="com.karol.SingletonFastFibonacciImplTest" />
+      <option name="METHOD_NAME" value="testSingleton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonFastFibonacciImplTest.testValues (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fastFibonacci" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.karol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.karol" />
+      <option name="MAIN_CLASS_NAME" value="com.karol.SingletonFastFibonacciImplTest" />
+      <option name="METHOD_NAME" value="testValues(java.lang.Long,java.lang.Long)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonFastFibonacciImplTest.testValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fastFibonacci" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.karol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.karol" />
+      <option name="MAIN_CLASS_NAME" value="com.karol.SingletonFastFibonacciImplTest" />
+      <option name="METHOD_NAME" value="testValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FastFibonacciImplTest" />
+        <item itemvalue="JUnit.SingletonFastFibonacciImplTest.testValues (1)" />
+        <item itemvalue="JUnit.SingletonFastFibonacciImplTest" />
+        <item itemvalue="JUnit.SingletonFastFibonacciImplTest.testValues" />
+        <item itemvalue="JUnit.SingletonFastFibonacciImplTest.testSingleton" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,7 +165,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672247256888</updated>
+      <workItem from="1672247258291" duration="3620000" />
+      <workItem from="1672257244430" duration="1440000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

@@ -1,2 +1,7 @@
-package com.karol;public interface FastFibonacci {
+package com.karol;
+
+@FunctionalInterface
+public interface FastFibonacci {
+
+    Long calculate(Long input);
 }
