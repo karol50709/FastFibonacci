@@ -6,6 +6,8 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
+import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 
@@ -30,6 +32,20 @@ class SingletonFastFibonacciImplTest {
         Long calculate = fastFibonacci.calculate(input);
         // then
         Assertions.assertEquals(expected, calculate);
+    }
+
+    @Test
+    public void functionalInterfaceProofTest(){
+        //given
+        FastFibonacci fastFibonacci = SingletonFastFibonacciImpl.getInstance();
+
+        //when
+        List<Long> collect = Stream.of(1L, 2L, 3L, 4L, 5L)
+                .map(fastFibonacci::calculate)
+                .collect(Collectors.toList());
+
+        //then
+        Assertions.assertEquals(List.of(1L,1L,2L,3L,5L), collect);
     }
 
     private static Stream<Arguments> getTestData() {

@@ -4,4 +4,5 @@ package com.karol;
 public interface FastFibonacci {
 
     Long calculate(Long input);
+
 }
